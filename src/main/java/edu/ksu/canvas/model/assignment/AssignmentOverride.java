@@ -19,7 +19,7 @@ public class AssignmentOverride extends BaseCanvasModel implements Serializable 
     private String title;
     private Date dueAt;
     private Boolean allDay;
-    private Date allDayDate;
+    private String allDayDate;
     private Date unlockAt;
     private Date lockAt;
 
@@ -87,11 +87,11 @@ public class AssignmentOverride extends BaseCanvasModel implements Serializable 
         this.allDay = allDay;
     }
 
-    public Date getAllDayDate() {
+    public String getAllDayDate() {
         return allDayDate;
     }
 
-    public void setAllDayDate(Date allDayDate) {
+    public void setAllDayDate(String allDayDate) {
         this.allDayDate = allDayDate;
     }
 
